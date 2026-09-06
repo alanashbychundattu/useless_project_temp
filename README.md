@@ -2,7 +2,7 @@
 
 
 
-# [Nala Neram] 🎯
+# Nala Neram 🎯
 
 
 ## Basic Details
