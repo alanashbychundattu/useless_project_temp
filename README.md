@@ -48,14 +48,11 @@ For Software:
 For Software:
 
 # Screenshots (Add at least 3)
-![Screenshot1](Add screenshot 1 here with proper name)
-*Add caption explaining what this shows*
+![screenshot-2026-09-06-at-7-41-34-am.avif](https://user30160.na.imgto.link/public/20260906/screenshot-2026-09-06-at-7-41-34-am.avif)Homepage/hero section — logo, dark-mode toggle, "KTU Cosmic Study Scheduler" tagline in Malayalam, zodiac symbol strip, and the start of the selection form (Scheme, Department, Semester, Subject, District, Town).
 
-![Screenshot2](Add screenshot 2 here with proper name)
-*Add caption explaining what this shows*
+![screenshot-2026-09-06-at-7-42-12-am.avif](https://user30160.na.imgto.link/public/20260906/screenshot-2026-09-06-at-7-42-12-am.avif)Result screen for a normal case — shows the exact date/time to start studying ("Digital Electronics" under Rahu's hour), a live countdown, retrograde status, and an audio "blessing" playback control.
 
-![Screenshot3](Add screenshot 3 here with proper name)
-*Add caption explaining what this shows*
+![screenshot-2026-09-06-at-7-42-49-am.avif](https://user30160.na.imgto.link/public/20260906/screenshot-2026-09-06-at-7-42-49-am.avif)*Add Zodiac horoscope page — 12 sign buttons with purple icon tiles, showing a selected "Leo today" joke horoscope full of Kerala-specific humor (Maggi, KSRTC tickets, attendance percentages).
 
 # Diagrams
 ![Workflow](Add your workflow/architecture diagram here)
