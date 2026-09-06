@@ -2,34 +2,34 @@
 
 
 
-# [Project Name] 🎯
+# [Nala Neram] 🎯
 
 
 ## Basic Details
-### Team Name: [Name]
+### Team Name: [Skibidi]
 
 
 ### Team Members
-- Team Lead: [Name] - [College]
-- Member 2: [Name] - [College]
+- Team Lead: [Alan Ashby Chundattu] - [Viswajyothi College of Engineering and Technology]
+- Member 2: [Anet Mary Antony] - [Viswajyothi College of Engineering and Technology]
 - Member 3: [Name] - [College]
 
 ### Project Description
-[2-3 lines about what your project does]
+[An astrology app that tells you when to study — real math, zero purpose.]
 
 ### The Problem (that doesn't exist)
-[What ridiculous problem are you solving?]
+[Students don't know the astrologically optimal time to study — a problem that doesn't actually exist, which is exactly why this qualifies for a "useless projects" hackathon.]
 
 ### The Solution (that nobody asked for)
-[How are you solving it? Keep it fun!]
+[an app that calculates real planetary hours from your exact location's sunrise and sunset just to tell you, with complete sincerity, whether Mercury or Saturn is currently on duty for your engineering syllabus.]
 
 ## Technical Details
 ### Technologies/Components Used
 For Software:
-- [Languages used]
-- [Frameworks used]
-- [Libraries used]
-- [Tools used]
+- [HTML5, CSS3, JavaScript (ES6+)]
+- [None — built as a vanilla, framework-free static web app]
+- [None — the planetary-hour/sunrise-sunset math is hand-written in plain JS (no astronomy library), and persistence uses the browser's built-in Web Storage API (localStorage), not a third-party package]
+- [Lovable]
 
 For Hardware:
 - [List main components]
