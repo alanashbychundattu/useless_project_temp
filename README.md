@@ -55,8 +55,13 @@ For Software:
 ![screenshot-2026-09-06-at-7-42-49-am.avif](https://user30160.na.imgto.link/public/20260906/screenshot-2026-09-06-at-7-42-49-am.avif)*Add Zodiac horoscope page — 12 sign buttons with purple icon tiles, showing a selected "Leo today" joke horoscope full of Kerala-specific humor (Maggi, KSRTC tickets, attendance percentages).
 
 # Diagrams
-![Workflow](Add your workflow/architecture diagram here)
-*Add caption explaining your workflow*
+![screenshot-2026-09-06-at-8-03-34-am.avif](https://user30160.na.imgto.link/public/20260906/screenshot-2026-09-06-at-8-03-34-am.avif)
+The diagram shows Nalla Neram's architecture as four stacked layers, top to bottom:
+
+Student (top) — the user, connects down into the frontend.
+Browser frontend (React + TypeScript) — a container holding two UI regions side by side: Input & result UI (the dropdowns and verdict display) and Sasi & horoscope UI (the chat widget and zodiac grid).
+Calculation engine (client-side JavaScript) — a container holding two connected regions: Exam / cooked check (the 48-hour threshold test) flows into Planetary hour engine (the sunrise/sunset + graha-cycle math), showing that the cooked check runs first and gates whether the full calculation runs.
+Static datasets, Browser storage, and Media assets (bottom row) — three parallel stores the engine reads from and writes to: bundled JSON data (departments, places, subject-planet map), localStorage (theme, streak, preferences), and files (logo, ushnam.mp3, neethern.mp3).
 
 For Hardware:
 
