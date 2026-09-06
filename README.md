@@ -105,8 +105,7 @@ For Hardware:
 
 ### Project Demo
 # Video
-[Add your demo video link here]
-*Explain what the video demonstrates*
+(https://videotourl.com/videos/1788664731775-18ec1930-6b5c-4d7a-87c5-11a6b9fe00db.mp4)*Explain what the video demonstrates*
 
 # Additional Demos
 [Add any extra demo materials/links]
@@ -114,7 +113,7 @@ For Hardware:
 ## Team Contributions
 - Alan Ashby Chundattu: Basic Plot idea and UI UX desing 
 - Anet Mary Antony: Audio Solution,
-- [Name 3]: [Specific contributions]
+
 
 ---
 Made with ❤️ at TinkerHub Useless Projects 
