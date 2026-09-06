@@ -39,14 +39,35 @@ For Hardware:
 ### Implementation
 For Software:
 # Installation
-[commands]
-
+git clone <your-repo-url>
+cd <your-project-name>
+npm install
 # Run
-[commands]
-
+npm run dev
 ### Project Documentation
-For Software:
+Overview
+Nalla Neram is a web app that calculates the astrologically "optimal" time for KTU engineering students to study a chosen subject, using a real planetary-hour system derived from actual sunrise/sunset data for the student's location. If an exam is too close for the calculation to be useful, the app switches to a playful Malayalam roast instead of a study window. Built in Lovable (React + TypeScript).
 
+Key Features
+
+Scheme → Department → Semester → Subject cascading dropdowns, populated from real KTU department/syllabus data
+District → Town location picker (Kerala-specific)
+Real sunrise/sunset-based planetary-hour engine (9-graha Vimshottari cycle, not the classical 7-planet Western system)
+Exam-date-aware logic: full calculated study verdict if there's runway, a Malayalam troll message + audio if the exam is ≤2 days away
+"Sasi" — an in-character astrology chatbot for follow-up questions
+"Read All Zodiac Signs' Horoscopes" — intentionally dumb/funny joke horoscopes per sign
+Dark/light theme toggle
+Daily streak tracking (persisted per browser)
+
+User Flow
+
+User selects Scheme, Department, Semester, and Subject
+User selects District and Town
+User selects their Exam Date
+On submit, the app checks time remaining until the exam
+If ≤ 2 days remain: shows the Malayalam troll message ("നീ തീർന്നടാ നീ തീർന്ന്") + plays neethern.mp3
+If more time remains: calculates the next planetary hour matching the subject's ruling planet, and shows the date/time verdict + plays ushnam.mp3
+User can chat with Sasi or browse zodiac horoscopes at any point
 # Screenshots (Add at least 3)
 ![screenshot-2026-09-06-at-7-41-34-am.avif](https://user30160.na.imgto.link/public/20260906/screenshot-2026-09-06-at-7-41-34-am.avif)Homepage/hero section — logo, dark-mode toggle, "KTU Cosmic Study Scheduler" tagline in Malayalam, zodiac symbol strip, and the start of the selection form (Scheme, Department, Semester, Subject, District, Town).
 
